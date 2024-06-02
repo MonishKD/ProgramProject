@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T19:43:22.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="UWNWIMcN1Kb-jpnO7vB1" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T19:48:27.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="2--zeRCnUDTnzyCPl1Dn" version="24.4.13" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2238" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -23,6 +23,11 @@
             <mxPoint x="425" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Bh-_urNm_L3etP5NiJio-16" value="Child" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LvMjk4B5w0dxx_g9D-OM-21">
+          <mxGeometry x="0.861" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5d2195bd80daf111-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;class Payroll&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;virtual double computePayroll() const = 0;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="20" y="290" width="230" height="60" as="geometry" />
         </mxCell>
@@ -35,11 +40,26 @@
         <mxCell id="Bh-_urNm_L3etP5NiJio-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="5d2195bd80daf111-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Bh-_urNm_L3etP5NiJio-21" value="Child" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bh-_urNm_L3etP5NiJio-2">
+          <mxGeometry x="0.792" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Bh-_urNm_L3etP5NiJio-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5d2195bd80daf111-20" target="5d2195bd80daf111-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Bh-_urNm_L3etP5NiJio-20" value="Payroll class" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bh-_urNm_L3etP5NiJio-3">
+          <mxGeometry x="-0.5221" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Bh-_urNm_L3etP5NiJio-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="LvMjk4B5w0dxx_g9D-OM-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh-_urNm_L3etP5NiJio-15" value="Parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bh-_urNm_L3etP5NiJio-4">
+          <mxGeometry x="-0.912" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Bh-_urNm_L3etP5NiJio-9" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;class Department&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="400" width="185" height="180" as="geometry" />
@@ -57,6 +77,11 @@
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="460" y="490" as="sourcePoint" />
             <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bh-_urNm_L3etP5NiJio-18" value="Inheritance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bh-_urNm_L3etP5NiJio-13">
+          <mxGeometry x="-0.047" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
