@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T20:18:29.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="mac1KQ40i3uFVuR7TIVo" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-02T20:33:29.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="GOAq66ZJWDT9ocaS1l3w" version="24.4.13" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2099" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="17acba5748e5396b-1" value="Program Project" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="10" width="820" height="690" as="geometry" />
+          <mxGeometry x="-40" y="10" width="820" height="850" as="geometry" />
         </mxCell>
         <mxCell id="JhGzBMYADT0RusUh7XYn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5d2195bd80daf111-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -67,16 +67,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bh-_urNm_L3etP5NiJio-9" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;class Department&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="400" width="185" height="180" as="geometry" />
+          <mxGeometry x="-30" y="410" width="380" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Bh-_urNm_L3etP5NiJio-10" value="&lt;div&gt;int id;&lt;/div&gt;&lt;div&gt;vector&amp;lt;Teacher*&amp;gt; teachers;&lt;/div&gt;&lt;div&gt;vector&amp;lt;Staff*&amp;gt; staff;&lt;/div&gt;&lt;div&gt;Teacher* dean;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bh-_urNm_L3etP5NiJio-9" vertex="1">
-          <mxGeometry y="26" width="185" height="94" as="geometry" />
+          <mxGeometry y="26" width="380" height="94" as="geometry" />
         </mxCell>
         <mxCell id="Bh-_urNm_L3etP5NiJio-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Bh-_urNm_L3etP5NiJio-9" vertex="1">
-          <mxGeometry y="120" width="185" height="8" as="geometry" />
+          <mxGeometry y="120" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Bh-_urNm_L3etP5NiJio-12" value="void set_dean(Teacher potential_dean)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bh-_urNm_L3etP5NiJio-9" vertex="1">
-          <mxGeometry y="128" width="185" height="52" as="geometry" />
+        <mxCell id="Bh-_urNm_L3etP5NiJio-12" value="Department(int id, Teacher* dean) : id(id), dean(dean) {}&lt;div&gt;void addTeacher(Teacher* teacher)&lt;br&gt;&lt;/div&gt;&lt;div&gt;void addStaff(Staff* staffMember)&lt;br&gt;&lt;/div&gt;&lt;div&gt;vector&amp;lt;Teacher*&amp;gt;&amp;amp; getTeachers() const&lt;br&gt;&lt;/div&gt;&lt;div&gt;vector&amp;lt;Staff*&amp;gt;&amp;amp; getStaff() const&lt;br&gt;&lt;/div&gt;&lt;div&gt;Teacher* getDean() const&lt;br&gt;&lt;/div&gt;&lt;div&gt;int getId() const&lt;br&gt;&lt;/div&gt;&lt;div&gt;void addDepartment(std::vector&amp;lt;Department&amp;gt;&amp;amp; departments)&lt;br&gt;&lt;/div&gt;&lt;div&gt;void addTeacher(std::vector&amp;lt;Department&amp;gt;&amp;amp; departments)&lt;br&gt;&lt;/div&gt;&lt;div&gt;void addStaff(std::vector&amp;lt;Department&amp;gt;&amp;amp; departments)&lt;br&gt;&lt;/div&gt;&lt;div&gt;void setDean(std::vector&amp;lt;Department&amp;gt;&amp;amp; departments)&lt;br&gt;&lt;/div&gt;&lt;div&gt;void displayDepartments(const std::vector&amp;lt;Department&amp;gt;&amp;amp; departments)&lt;br&gt;&lt;/div&gt;&lt;div&gt;void loadDepartments(const std::string&amp;amp; filename, std::vector&amp;lt;Department*&amp;gt;&amp;amp; departments)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bh-_urNm_L3etP5NiJio-9" vertex="1">
+          <mxGeometry y="128" width="380" height="242" as="geometry" />
         </mxCell>
         <mxCell id="XJJdo-Auk5NDTR2lQJK0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LvMjk4B5w0dxx_g9D-OM-23" target="Bh-_urNm_L3etP5NiJio-10">
           <mxGeometry relative="1" as="geometry" />
